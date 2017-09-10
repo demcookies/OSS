@@ -1,0 +1,77 @@
+/* CSS Document */
+
+body {
+	/* background-color: #202020; */
+	background: #202020 url(../pictures/bg-202020-noice.png);
+}
+
+#terminal_container {
+	width: 600px;
+    height: 750px;
+	background-color: #181818;
+	border: solid 1px #151515;
+	box-shadow: 3px 3px 30px -10px #000000;
+	/*it can be fixed too*/
+    position:absolute; 
+    left:0; 
+	right:0;
+    top:0; 
+	bottom:0;
+    margin:auto;
+    max-width:90%;
+    max-height:90%;
+    overflow:auto;
+}
+
+#terminal_menu_bar {
+	width: 100%;
+	height: 50px;
+	background-color: #181818;
+	border-bottom: solid 2px #121212;
+	box-shadow: 0 2px 8px -4px #121212;
+	position: static;
+	
+}
+
+#terminal {
+	width: 100%;
+	height: 698px;
+	max-height: calc(100% - 52px);
+	box-sizing: border-box;
+	padding: 24px;
+	position: relative;
+}
+
+#terminal_input {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	/*background: black;*/
+}
+
+.input_field {
+	height: 100%;
+	color: #FF847C;
+	font-family: Campton-Bold;
+	font-size: 16px;
+}
+
+@font-face {
+	font-family: Campton-Bold;
+	src: url(../fonts/Campton-Bold.otf);
+}
+
+@font-face {
+	font-family: Cheque-Black;
+	src: url(../fonts/Cheque-Black.otf);
+}
+
+@font-face {
+	font-family: Cheque-Regular;
+	src: url(../fonts/Cheque-Regular.otf);
+}
+
+@font-face {
+	font-family: Evergreen;
+	src: url(../fonts/Evergreen.otf);
+}
